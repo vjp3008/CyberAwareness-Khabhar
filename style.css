@@ -150,3 +150,33 @@ a:hover {
 .animated-button:hover::before {
   height: 100%;
 }
+
+#blog {
+  padding: 100px 0;
+}
+
+#blog h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#blog h2 {
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#blog ul {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+#blog li:before {
+  content: "\2022";
+  font-size: 20px;
+  color: #007bff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
