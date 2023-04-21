@@ -1,0 +1,108 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Navigation bar styles */
+.navbar {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.navbar-nav {
+  justify-content: center;
+}
+
+/* Banner section styles */
+#banner {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#banner h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#banner p {
+  margin-bottom: 20px;
+}
+
+/* Blog section styles */
+#blog {
+  padding: 50px 0;
+}
+
+#blog h2 {
+  margin-bottom: 50px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.square-container {
+  background-color: #fff;
+  border: 2px solid #007bff;
+  padding: 50px;
+  position: relative;
+}
+
+.square-container::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid #007bff;
+}
+
+.square-container h2,
+.square-container p,
+.square-container a {
+  position: relative;
+  z-index: 1;
+}
+
+#contact {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+#contact h2 {
+  margin-bottom: 50px;
+}
+
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
